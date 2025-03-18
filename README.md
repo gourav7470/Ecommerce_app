@@ -1,12 +1,67 @@
-# React + Vite
+# 🛍️ MyShop - E-Commerce React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+MyShop is a fully responsive e-commerce web application built with React, Bootstrap, and Framer Motion. It fetches product data from FakeStore API, allowing users to browse, filter, like, and add products to a shopping cart.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 📦 **Product Listing:** Displays a catalog of products fetched from FakeStore API.
+- 🔍 **Category Filtering:** Users can filter products based on different categories.
+- ❤️ **Like/Unlike Products:** Toggle like/unlike functionality for favorite products.
+- 🛒 **Shopping Cart:** Users can add and remove items from the cart.
+- 🎨 **Animated UI:** Uses Framer Motion for smooth animations.
+- 🎭 **Dark Theme Navbar:** Enhances user experience with a sleek UI.
+- 🔄 **Responsive Design:** Works seamlessly across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Technologies Used
+- **React** (for UI development)
+- **Bootstrap** (for styling and responsiveness)
+- **Framer Motion** (for animations)
+- **Axios** (for API calls)
+- **React-Bootstrap** (for UI components)
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+```
+📦 MyShop
+ ┣ 📂 src
+ ┃ ┣ 📜 App.jsx  (Main application component)
+ ┃ ┣ 📜 index.js  (Entry point)
+ ┃ ┣ 📜 styles.css (Custom styles)
+ ┃ ┣ 📜 components/ (Reusable components)
+ ┃ ┣ 📜 assets/ (Images and other assets)
+ ┃ ┣ 📜 services/ (API service calls)
+ ┣ 📜 package.json  (Project dependencies)
+ ┣ 📜 README.md  (Project documentation)
+ ┗ 📜 .gitignore  (Git ignore file)
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Installation & Usage
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/MyShop.git
+cd MyShop
+```
+
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
+
+### 3️⃣ Start the Application
+```sh
+npm run dev
+```
+
+### 4️⃣ Open in Browser
+Visit `http://localhost:5173` to view the app.
+
+## 🛠 API Used
+- **[FakeStore API](https://fakestoreapi.com/)** (For fetching product data)
+
+## 📜 License
+This project is open-source and available under the **MIT License**.
+
+## 📬 Contact
+For any queries or suggestions, feel free to reach out!
+
+👨‍💻 Developed by [Your Name] 🚀
+
