@@ -1,6 +1,5 @@
-# 🛍️ MyShop - E-Commerce React App
+E-Commerce React App
 
-## 📌 Overview
 MyShop is a fully responsive e-commerce web application built with React, Bootstrap, and Framer Motion. It fetches product data from FakeStore API, allowing users to browse, filter, like, and add products to a shopping cart.
 
 ## ✨ Features
@@ -32,36 +31,18 @@ MyShop is a fully responsive e-commerce web application built with React, Bootst
  ┣ 📜 package.json  (Project dependencies)
  ┣ 📜 README.md  (Project documentation)
  ┗ 📜 .gitignore  (Git ignore file)
-```
 
 ## 🚀 Installation & Usage
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/your-username/MyShop.git
 cd MyShop
-```
 
 ### 2️⃣ Install Dependencies
 ```sh
 npm install
-```
 
 ### 3️⃣ Start the Application
-```sh
 npm run dev
-```
 
-### 4️⃣ Open in Browser
-Visit `http://localhost:5173` to view the app.
-
-## 🛠 API Used
-- **[FakeStore API](https://fakestoreapi.com/)** (For fetching product data)
-
-## 📜 License
-This project is open-source and available under the **MIT License**.
-
-## 📬 Contact
-For any queries or suggestions, feel free to reach out!
-
-👨‍💻 Developed by [Your Name] 🚀
 
